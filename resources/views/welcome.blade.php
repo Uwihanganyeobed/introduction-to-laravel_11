@@ -21,6 +21,19 @@
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
         <div class="bg-gray-50 text-black/50 dark:bg-black dark:text-white/50">
+            <div class="flex flex-col items-center justify-between bg-green-300 dark:bg-gray-800 p-6 rounded-lg shadow-lg space-y-4">
+                <p class="text-lg font-semibold text-green-700 dark:text-gray-200">
+                    Master Practices with Laravel CRUD
+                </p>
+                <a href="{{route('post.index')}}"
+                   class="px-4 py-2 bg-blue-500 text-white rounded-md shadow-md hover:bg-blue-600 focus:ring focus:ring-blue-300 transition">
+                    Visit Posts CRUD Page
+                </a>
+                <a href="{{route('product.index')}}"
+                   class="px-4 py-2 bg-green-500 text-white rounded-md shadow-md hover:bg-green-600 focus:ring focus:ring-green-300 transition">
+                    Visit Products CRUD Page
+                </a>
+            </div>
             <img id="background" class="absolute -left-20 top-0 max-w-[877px]" src="https://laravel.com/assets/img/welcome/background.svg" alt="Laravel background" />
             <div class="relative min-h-screen flex flex-col items-center justify-center selection:bg-[#FF2D20] selection:text-white">
                 <div class="relative w-full max-w-2xl px-6 lg:max-w-7xl">
