@@ -18,7 +18,6 @@ Route::put('/product/{product}/update', [ProductController::class,'update'])->na
 Route::delete('product/{product}/destroy', [ProductController::class,'destroy'])->name('product.destroy');
 
 //routes for posts
-
 Route::get('/post',[PostController::class,'index'])->name('post.index');
 Route::get('/post/create',[PostController::class,'create'])->name('post.create');
 Route::post('/post',[PostController::class,'store'])->name('post.store');
